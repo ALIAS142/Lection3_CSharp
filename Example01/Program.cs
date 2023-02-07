@@ -15,7 +15,7 @@ void PrintArray(int [] array)
     Console.WriteLine();
 }
 
-void SelectionSort(int[]array);
+ void SelectionSort(int [] array, int);  
 {
     for (int i = 0; i < array.Length - 1; i++)
     {
